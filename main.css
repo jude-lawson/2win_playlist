@@ -162,6 +162,10 @@ section#shares-thumbnails {
   color: rgb(63,190,253);
 }
 
+.photo-credit {
+  color: rgb(200,200,200)
+}
+
 /* Dynamic Classes: Keep lowest in rule order */
 .inactive {
   color: rgb(37,180,254);
