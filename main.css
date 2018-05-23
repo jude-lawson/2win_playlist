@@ -63,12 +63,103 @@ nav {
 main h2 {
   font-size: 36px;
   font-weight: 400;
-  margin: 12px;
+  margin: 0 0 12px 12px;
+  padding-top: 30px;
   color: rgb(77,77,77);
 }
 
 .nav-item i {
   margin-right: 8px;
+}
+
+/* Main */
+
+main {
+  background-color: rgb(239,239,239);
+}
+
+section#shares-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.thumbnail {
+  height: 400px;
+  background-color: rgb(255,255,255);
+  margin: 8px;
+  width: 275px;
+}
+
+.thumbnail-image {
+  background-image: url(ambreen-hasan-346960-unsplash.jpg);
+  background-size: 100%;
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 33%;
+  padding: 8px 24px 0 24px;
+}
+
+.thumbnail-image i {
+  background-color: rgb(239,239,239);
+  padding: 12px;
+  border-radius: 50%;
+  color: rgb(77,77,77);
+}
+
+.views-count {
+  display: flex;
+  flex-direction: column;
+}
+
+.number-of-views {
+  font-size: 36px;
+}
+
+/* .thumbnail-info {
+  display: flex;
+  flex-direction: column;
+  height: 66%;
+  justify-content: center;
+} */
+
+.thumbnail-info {
+  padding: 8px 0 0 12px;
+}
+
+.thumbnail-date {
+  color: rgb(180,180,180);
+  font-size: 12px;
+}
+
+.thumbnail-url-container {
+  margin-top: 12px;
+  background-color: rgb(220,220,220);
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.thumbnail-url-container a {
+  color: rgb(120,120,120);
+  text-decoration: none;
+}
+
+.thumbnail-info h5 {
+  margin-top: 24px;
+}
+
+.thumbnail-info h6 {
+  margin-top: 22px;
+}
+
+.number-of-attachments {
+  font-size: 32px;
+  color: rgb(63,190,253);
 }
 
 /* Dynamic Classes: Keep lowest in rule order */
